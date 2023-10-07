@@ -98,8 +98,8 @@ html{
   
     .contenedor button {
       text-align: center;
-      width: auto;
-      height: auto;
+      width: 150px;
+      height: 30px;
       margin-top: 10px;
     }
   }
@@ -127,7 +127,7 @@ html{
       /*ultima media dispositivos mas pequenos*/
       @media (max-width: 290px){
         .contenedor p {
-            font-size: 0.4rem; 
+            font-size: 0.6rem; 
             text-align: center;
             align-items: center;
            
@@ -139,10 +139,9 @@ html{
     
           .contenedor button {
             text-align: center;
-            width: 15px;
-            height: 5px;
+            width: 25px;
+            height: 8px;
             font-size: 1px;
-            margin-top: 10px;
           }
 
       }
@@ -232,7 +231,6 @@ html{
     justify-content:center;
     align-items: center;
     gap: 2rem;
-    
 }
 
 .grid-conteiner >div{
