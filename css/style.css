@@ -105,6 +105,7 @@ html{
   }
 
   @media (max-width: 450px){
+
         
     .contenedor p {
         font-size: 0.9rem; 
@@ -219,6 +220,46 @@ html{
   .imagen-2 {
       order: 1; 
   }
+}
+/*Estudiantes*/
+.precios-conteiner{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  column-gap: 2em;
+  max-width: 50%;
+  height: 150px;
+  flex-wrap: wrap;
+  
+
+}
+.estudiantes, .trainee, .junior {
+  flex: 1;
+  font-size: 2em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+.estudiantes{
+  border: 1px solid blue;
+  
+  
+}
+.trainee{
+  border: 1px solid blue;
+
+}
+.junior{
+  border: 1px solid orange;
+}
+.valor-ticket{
+  text-align: center;
+  font-size: 3.5em;
+  color:black;
+  
 }
 
 /*Footer*/
