@@ -70,7 +70,8 @@
                 <h2  class="">Config Bs As</h2>
                 <p class="text-wrap">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro del internet. Ven a conocer a los miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                 <div class="button-container">
-                  <button class="btn btn-outline-light btn-sm">Quiero ser orador</button>
+                  <a href="#oradores"><button class="btn btn-outline-light btn-sm">Quiero ser orador</button></a>
+                  
                  <button class="btn btn-success btn-sm">Comprar tickets</button>
                 </div>
               </div>
@@ -90,7 +91,7 @@
         <hr>
       <section>
       <!--Oradores-->
-        <div class="container">
+        <div class="container oradores">
             <p style="text-align: center;font-size: 1.3rem;">CONOCE A LOS ORADORES </p>
             <h2 style="font-size:31px;text-align: center;"><bold>ORADORES</bold></h2>
     <div class="row mb-4">
@@ -155,7 +156,7 @@
         <br>
         <!--formulario-->
         <section>
-          <div class="container">
+          <div class="container w-50">
             <div class="texto-formulario text-center">
               <p style="font-size: 16px;">CONVIÉRTETE EN UN</p>
               <h2 class="display-4"><b>ORADOR</b></h2>
@@ -181,7 +182,7 @@
         <br>
         <br> 
         <!--Precios-->
-        <div class="precios-conteiner container-fluid">
+        <div class="precios-conteiner ">
           <div class="estudiantes">
             <p style="font-weight: bold;">Estudiante</p>
             <p style="font-size:0.8em;">Tienen descuento</p>
@@ -210,47 +211,45 @@
      <!--Formulario ticks-->
      <section class="form-tickets">
       <h2 class="valor-ticket">VALOR DE TICKET 200$</h2>
-      <div class="container">
+      <div class="container w-50">
          <form class="row">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center row-gap-4">
               <div class="col-6">
-                <input  class="form-control form-control-lg" type="text" placeholder="nombre" aria-label="Nombre">
+                <input  class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label="nombre">
               </div>
               <div class="col-6">
-                <input class="form-control form-control-lg" type="text" placeholder="apellido" aria-label="Apellido">
+                <input class="form-control form-control-lg" type="text" placeholder="Apellido" aria-label="apellido">
               </div>
               <div class="col-12 ">
                 <input type="email" class="form-control form-control-lg" id="ejemploEmail" placeholder="Correo">
               </div>
               <div class="col-6">
                 <label for="idCantidad" class="form-label" >Cantidad</label>
-                <input class="form-control form-control-lg" id="idCantidad" placeholder="cantidad" type="text">
+                <input class="form-control form-control-lg cantTickets" id="idCantidad" placeholder="cantidad" type="text" >
               </div>
-                <div class="col-6">
+                <div class="col-6"  >
                   <label for="idCategoria" class="form-label" >Categoria</label>
-                  <select class="form-select form-select-lg" aria-label="Default select example" id="idCantidad">
-                    <option value="1">Estudiante</option>
-                    <option value="2">Traiine</option>
-                    <option value="3">Junior</option>
+                  <select  class="form-select form-select-lg select" aria-label="Default select example" id="idCategoria">
+                    <option  value="Estudiante">Estudiante</option>
+                    <option  value="Traiine">Traiine</option>
+                    <option  value="Junior">Junior</option>
                   </select>
                 </div>
-                <div class="col-12">
-                  <input class="form-control form-control-lg" type="text" placeholder="Total a pagar:$">
+                <div class="col-12 mt-4">
+                  <input class=" pagar form-control form-control-lg"  type="text" placeholder="Total a pagar:$" disabled="true" style="background-color:rgb(204,229,255)">
 
                 </div>
                 <div class="col-6 column-gap-2">
-                  <button type="button " class="btn btn-secondary botones-tickests">Secondary</button>
-                  
+          
+                    <button type="button " class="btn-lg bo">Borrar</button>
+     
                 </div>
                 <div class="col-6 column-gap-2">
-                  <button type="button" class="btn btn-secondary botones-tickets">Secondary</button>
+                    <button type="button" class="btn-lg  bo">Pagar</button>  
+                </div>
+                <div class="col-12 estados">
                   
                 </div>
-             
-
-
-
-
             </div>
          
 
@@ -274,6 +273,6 @@
         </div>
     </footer>
     <script src="css/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
-    
+    <script src="js/funcionalidadTickecks.js"></script>
 </body>
 </html>

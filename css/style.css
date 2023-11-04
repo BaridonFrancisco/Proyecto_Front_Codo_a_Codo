@@ -230,7 +230,7 @@ html{
   text-align: center;
   column-gap: 2em;
   max-width: 50%;
-  height: 150px;
+  /*height: 150px;*/
   flex-wrap: wrap;
   
 
@@ -260,6 +260,48 @@ html{
   font-size: 3.5em;
   color:black;
   
+}
+.form-tickets input{
+  font-size: 1.8rem
+}
+.form-tickets label{
+  font-size: 1.8rem;
+}
+
+#idCategoria.form-select{
+  font-size: 1.8rem;
+}
+
+.pagarCampo input{
+  background-color: cadetblue;
+}
+.bo {
+  width: 100%;
+  font-weight: bold;
+  height: 50px;
+  font-size:1.8rem;
+  color:aliceblue;
+  background-color: rgb(150,201,62);
+  border-color:rgba(150,201,62,0);
+  margin-top: 25px;
+  margin-bottom: 20px;
+
+}
+.ticketIncorrectos{
+  background-color: red;
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+
+
+}
+.ticketCorrectos{
+  background-color: green;
+  height: 35px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /*Footer*/
