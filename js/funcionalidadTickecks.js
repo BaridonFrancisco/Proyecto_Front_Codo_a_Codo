@@ -33,7 +33,7 @@ botones[1].addEventListener("click",function(e){
 });
 
 botones[0].addEventListener("click",function(e){
-        
+        e.preventDefault();
         cantidadTickets.value="";
         campoPagar.value="";
 
